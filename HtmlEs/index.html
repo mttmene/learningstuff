@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | QR code component</title>
+
+    <style>
+      html {
+        background-color: hsl(212, 45%, 89%);
+        font-family: Outfit;
+      }
+      .container {
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        list-style: none;
+        border: 1px solid silver;
+        background-color: hsl(0, 0%, 100%);
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: stretch;
+        width: 250px;
+        border-radius: 15px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .item1 {
+        padding: 10px;
+      }
+
+      .item2 {
+        align-self: center;
+        text-align: center;
+        width: 80%;
+      }
+
+      .container img {
+        flex-basis: 100%;
+        width: 100%;
+        border-radius: 11px;
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item1">
+        <img src="/images/image-qr-code.png" />
+      </div>
+      <div class="item item2">
+        <h3 style="color: hsl(218, 44%, 22%); font-size: 18px">
+          Improve your front-end skills by building projects
+        </h3>
+        <p style="color: hsl(212, 8%, 57%); font-size: 15px">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Matteo Meneghetti</a>.
+    </div>
+  </body>
+</html>

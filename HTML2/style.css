@@ -1,0 +1,120 @@
+html {
+  background-color: hsl(30, 38%, 92%);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  min-width: 1000px;
+}
+.container {
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 500px;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container > * {
+  flex: 1;
+}
+
+.text {
+  margin-right: 35px;
+}
+
+#title {
+  margin-top: 20px;
+  font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  font-style: Thin;
+  font-size: 11.5px;
+  letter-spacing: 3.5px;
+}
+
+#name {
+  font-family: "Fraunces 9pt";
+  font-size: 30px;
+  color: hsl(212, 21%, 14%);
+  font-weight: 700;
+  line-height: 90%;
+  padding-bottom: 10px;
+}
+
+#description {
+  font-family: "Montserrat", Thin;
+  font-style: Thin;
+  font-weight: 300;
+  color: hsl(228, 12%, 48%);
+  text-align: left;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.newPrice {
+  font-family: "Fraunces 9pt";
+  font-size: 23px;
+  font-weight: bolder;
+  color: hsl(158, 36%, 37%);
+  margin-right: 8px;
+}
+
+.oldPrice {
+  vertical-align: text-top;
+  color: hsl(228, 12%, 48%);
+  font-size: 13px;
+  font-family: "Fraunces 9pt";
+}
+
+#buttonCart {
+  margin-top: 8px;
+  font-family: Montserrat;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: none;
+  padding: 13px 45px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 7px;
+}
+
+#svgcart {
+  vertical-align: text-bottom;
+}
+.container img {
+  width: 250px;
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
